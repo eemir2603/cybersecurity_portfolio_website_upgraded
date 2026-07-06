@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Security Engineer | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar fade-in">
+        <div class="logo">user@portfolio:~#</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills & Tools</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#learning">Logs</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="fade-in delay-1">
+        <div class="hero-content">
+            <p class="mono-accent">System initialized...</p>
+            <h1>Aspiring Security Engineer building robust tools with Python & Bash.</h1>
+            <p class="hero-subtitle">Focused on network reconnaissance, automation, and understanding vulnerabilities to build better defenses.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="https://github.com/eemir2603" target="_blank" class="btn secondary">GitHub Profile</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="fade-in delay-2">
+        <div class="section-header">
+            <h2>> Technical_Arsenal</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages & OS</h3>
+                <div class="tag-cloud">
+                    <span class="tag">Python</span>
+                    <span class="tag">Bash Scripting</span>
+                    <span class="tag">Linux (UBUNTU)</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Core Concepts</h3>
+                <div class="tag-cloud">
+                    <span class="tag">Networking (TCP/IP, OSI)</span>
+                    <span class="tag">Active Directory Basics</span>
+                    <span class="tag">Web App Security (OWASP)</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="tag-cloud">
+                    <span class="tag">Nmap</span>
+                    <span class="tag">Wireshark</span>
+                    <span class="tag">Burp Suite (Learning)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in delay-3">
+        <div class="section-header">
+            <h2>> Deployed_Projects</h2>
+        </div>
+
+        <div class="project-card featured">
+            <div class="project-info">
+                <span class="featured-badge">Featured Project</span>
+                <h3>Automated Network Reconnaissance Scanner</h3>
+                <p class="project-desc">A comprehensive Bash script that automates Nmap scanning, DNS enumeration, and directory brute-forcing, compiling the results into a clean markdown report.</p>
+                <div class="tech-stack">
+                    <span>Bash</span>
+                    <span>Nmap</span>
+                    <span>GoBuster</span>
+                </div>
+                <div class="project-why">
+                    <strong>Why I built this:</strong> Manual recon was taking too much time during CTFs. This tool standardizes my methodology and ensures I never miss basic enumeration steps.
+                </div>
+                <div class="terminal-mockup">
+                    <pre><code>$ ./recon.sh -t 192.168.1.10
+[*] Initiating stealth scan...
+[*] Found open ports: 22, 80, 443
+[*] Generating markdown report... Done.</code></pre>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn secondary outline">View Source on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Custom Packet Sniffer</h3>
+                <p class="project-desc">A lightweight packet analyzer built to intercept and parse HTTP and DNS traffic on local networks.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Scapy</span>
+                </div>
+                <div class="project-why">
+                    <strong>Why:</strong> To deeply understand the TCP/IP handshake and packet structures at a byte level.
+                </div>
+                <a href="#" class="project-link">GitHub ↗</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Active Directory Homelab</h3>
+                <p class="project-desc">Configured a virtualized Windows enterprise environment to practice lateral movement and privilege escalation.</p>
+                <div class="tech-stack">
+                    <span>Windows Server</span>
+                    <span>PowerShell</span>
+                </div>
+                <div class="project-why">
+                    <strong>Why:</strong> To move beyond theoretical knowledge and see how misconfigurations occur in real networks.
+                </div>
+                <a href="#" class="project-link">Read Writeup ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="learning" class="fade-in delay-4">
+        <div class="section-header">
+            <h2>> Active_Logs</h2>
+        </div>
+        <div class="learning-container">
+            <div class="log-entry">
+                <span class="log-date">Currently Focusing On:</span>
+                <h4>Mastering Burp Suite Professional</h4>
+                <p>Transitioning from basic proxying to utilizing Intruder, Repeater, and understanding complex web application logic flaws (IDOR, CSRF).</p>
+            </div>
+            <div class="log-entry">
+                <span class="log-date">Latest Milestone:</span>
+                <h4>eJPT Certification Prep</h4>
+                <p>Completed 80% of the INE network penetration testing pathway. Consistently rooting easy/medium TryHackMe boxes without walkthroughs.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>System secure. <span class="mono-accent">EOF</span></p>
+    </footer>
+
+</body>
+</html>
+
