@@ -18,12 +18,14 @@ As an aspiring Security Engineer, I needed a centralized place to document my to
 - **Active Learning Logs:** A dedicated section to share current certification progress (e.g., eJPT) and tools I am currently mastering (e.g., Burp Suite).
 - **Fully Responsive:** Optimized for both desktop and mobile viewing.
 
-## 🛠️ Installation & Usage
+##  Installation & Usage
 
 You don't need any complex build tools to run this site locally. 
 
+
 ## Conclusion Things
-- ** I hope you'll like my website I'll keep updating it. I will try my best as I can. I will update as much as I can do.
+- ** I hope you'll like my website I'll keep updating it. I will try my best as I can. I will buy a domain for host the site.
+
 
 1. Clone the repository:
    ```bash
